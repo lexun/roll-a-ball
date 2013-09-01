@@ -226,6 +226,7 @@ GameObject:
   - 65: {fileID: 165547381}
   - 23: {fileID: 165547380}
   - 114: {fileID: 165547379}
+  - 54: {fileID: 165547383}
   m_Layer: 0
   m_Name: PickUp
   m_TagString: PickUp
@@ -296,6 +297,22 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1301873618}
   m_GameObject: {fileID: 165547377}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &165547383
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 5400000, guid: 04d942b817dff4bfbb6b7746e8bcd5d8,
+    type: 2}
+  m_PrefabInternal: {fileID: 1301873618}
+  m_GameObject: {fileID: 165547377}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &214200933
 GameObject:
   m_ObjectHideFlags: 0
@@ -535,6 +552,7 @@ GameObject:
   - 65: {fileID: 377556725}
   - 23: {fileID: 377556724}
   - 114: {fileID: 377556728}
+  - 54: {fileID: 377556729}
   m_Layer: 0
   m_Name: PickUp
   m_TagString: PickUp
@@ -605,6 +623,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f94b5b3a2ff3450d95e4363a1acf978, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!54 &377556729
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 5400000, guid: 04d942b817dff4bfbb6b7746e8bcd5d8,
+    type: 2}
+  m_PrefabInternal: {fileID: 1333928448}
+  m_GameObject: {fileID: 377556723}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &438091142
 GameObject:
   m_ObjectHideFlags: 0
@@ -630,14 +664,14 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 165547378}
-  - {fileID: 377556727}
-  - {fileID: 1119717345}
   - {fileID: 661784878}
-  - {fileID: 845842386}
-  - {fileID: 1677607185}
-  - {fileID: 477179798}
   - {fileID: 522107525}
+  - {fileID: 1119717345}
+  - {fileID: 845842386}
+  - {fileID: 477179798}
+  - {fileID: 165547378}
+  - {fileID: 1677607185}
+  - {fileID: 377556727}
   m_Father: {fileID: 0}
 --- !u!1001 &472885836
 Prefab:
@@ -699,6 +733,7 @@ GameObject:
   - 65: {fileID: 477179801}
   - 23: {fileID: 477179800}
   - 114: {fileID: 477179799}
+  - 54: {fileID: 477179803}
   m_Layer: 0
   m_Name: PickUp
   m_TagString: PickUp
@@ -769,6 +804,22 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1428105628}
   m_GameObject: {fileID: 477179797}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &477179803
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 5400000, guid: 04d942b817dff4bfbb6b7746e8bcd5d8,
+    type: 2}
+  m_PrefabInternal: {fileID: 1428105628}
+  m_GameObject: {fileID: 477179797}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &515406023
 Prefab:
   m_ObjectHideFlags: 0
@@ -829,6 +880,7 @@ GameObject:
   - 65: {fileID: 522107528}
   - 23: {fileID: 522107527}
   - 114: {fileID: 522107526}
+  - 54: {fileID: 522107530}
   m_Layer: 0
   m_Name: PickUp
   m_TagString: PickUp
@@ -899,6 +951,22 @@ MeshFilter:
   m_PrefabInternal: {fileID: 8004130}
   m_GameObject: {fileID: 522107524}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &522107530
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 5400000, guid: 04d942b817dff4bfbb6b7746e8bcd5d8,
+    type: 2}
+  m_PrefabInternal: {fileID: 8004130}
+  m_GameObject: {fileID: 522107524}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &661784877
 GameObject:
   m_ObjectHideFlags: 0
@@ -911,6 +979,7 @@ GameObject:
   - 65: {fileID: 661784881}
   - 23: {fileID: 661784880}
   - 114: {fileID: 661784879}
+  - 54: {fileID: 661784883}
   m_Layer: 0
   m_Name: PickUp
   m_TagString: PickUp
@@ -981,6 +1050,22 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1794584742}
   m_GameObject: {fileID: 661784877}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &661784883
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 5400000, guid: 04d942b817dff4bfbb6b7746e8bcd5d8,
+    type: 2}
+  m_PrefabInternal: {fileID: 1794584742}
+  m_GameObject: {fileID: 661784877}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &845842385
 GameObject:
   m_ObjectHideFlags: 0
@@ -993,6 +1078,7 @@ GameObject:
   - 65: {fileID: 845842389}
   - 23: {fileID: 845842388}
   - 114: {fileID: 845842387}
+  - 54: {fileID: 845842391}
   m_Layer: 0
   m_Name: PickUp
   m_TagString: PickUp
@@ -1063,6 +1149,22 @@ MeshFilter:
   m_PrefabInternal: {fileID: 472885836}
   m_GameObject: {fileID: 845842385}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &845842391
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 5400000, guid: 04d942b817dff4bfbb6b7746e8bcd5d8,
+    type: 2}
+  m_PrefabInternal: {fileID: 472885836}
+  m_GameObject: {fileID: 845842385}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1119717344
 GameObject:
   m_ObjectHideFlags: 0
@@ -1075,6 +1177,7 @@ GameObject:
   - 65: {fileID: 1119717348}
   - 23: {fileID: 1119717347}
   - 114: {fileID: 1119717346}
+  - 54: {fileID: 1119717350}
   m_Layer: 0
   m_Name: PickUp
   m_TagString: PickUp
@@ -1145,6 +1248,22 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1634108843}
   m_GameObject: {fileID: 1119717344}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1119717350
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 5400000, guid: 04d942b817dff4bfbb6b7746e8bcd5d8,
+    type: 2}
+  m_PrefabInternal: {fileID: 1634108843}
+  m_GameObject: {fileID: 1119717344}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &1301873618
 Prefab:
   m_ObjectHideFlags: 0
@@ -1441,6 +1560,7 @@ GameObject:
   - 65: {fileID: 1677607188}
   - 23: {fileID: 1677607187}
   - 114: {fileID: 1677607186}
+  - 54: {fileID: 1677607190}
   m_Layer: 0
   m_Name: PickUp
   m_TagString: PickUp
@@ -1511,6 +1631,22 @@ MeshFilter:
   m_PrefabInternal: {fileID: 515406023}
   m_GameObject: {fileID: 1677607184}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1677607190
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 5400000, guid: 04d942b817dff4bfbb6b7746e8bcd5d8,
+    type: 2}
+  m_PrefabInternal: {fileID: 515406023}
+  m_GameObject: {fileID: 1677607184}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &1794584742
 Prefab:
   m_ObjectHideFlags: 0

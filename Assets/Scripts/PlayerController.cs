@@ -4,6 +4,9 @@ using System.Collections;
 public class PlayerController : MonoBehaviour
 {
 	public float speed;
+	public GUIText scoreText;
+
+	private int score = 0;
 
 	void FixedUpdate()
 	{
@@ -20,6 +23,8 @@ public class PlayerController : MonoBehaviour
 		if(other.gameObject.tag == "PickUp")
 		{
 			other.gameObject.SetActive(false);
+			score += 1;
+			scoreText.text = "Score: " + score.ToString();
 		}
 	}
 }
